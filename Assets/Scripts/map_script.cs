@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class menu_script : MonoBehaviour
+public class map_script : MonoBehaviour
 {
-    public void NewGame()
+    public void Forest_level_1()
     {
-        Application.LoadLevel("Map");
+        Application.LoadLevel("Forest_level_1");
     }
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        
+
     }
 }
+
