@@ -234,12 +234,12 @@ RectTransform:
   m_LocalScale: {x: 0.12298, y: 0.12298, z: 0.12298}
   m_Children:
   - {fileID: 104368256}
-  m_Father: {fileID: 984140113}
+  m_Father: {fileID: 1342801504}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -67}
+  m_AnchoredPosition: {x: -5, y: -40.199997}
   m_SizeDelta: {x: 408, y: 626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95814014
@@ -280,13 +280,13 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 95814015}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 984140114}
-        m_MethodName: Forest_level_1
+        m_MethodName: Swamp_level_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fab47c2fd7e5d5e44897999ed91545e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54ccf1c459b20354d904d6d29761da08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -512,17 +512,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607690135}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.12298473, y: 0.12298473, z: 0.12298473}
   m_Children:
   - {fileID: 1919720236}
-  m_Father: {fileID: 984140113}
+  m_Father: {fileID: 1342801504}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 244.8, y: -153.3}
+  m_AnchoredPosition: {x: 234.8, y: -126.5}
   m_SizeDelta: {x: 408, y: 626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607690137
@@ -563,7 +563,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 607690138}
   m_OnClick:
     m_PersistentCalls:
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fab47c2fd7e5d5e44897999ed91545e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54ccf1c459b20354d904d6d29761da08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -646,12 +646,12 @@ RectTransform:
   m_LocalScale: {x: 0.12298, y: 0.12298, z: 0.12298}
   m_Children:
   - {fileID: 1987048593}
-  m_Father: {fileID: 984140113}
-  m_RootOrder: 3
+  m_Father: {fileID: 1342801504}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -224, y: -146}
+  m_AnchoredPosition: {x: -234, y: -119.2}
   m_SizeDelta: {x: 408, y: 626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &612704391
@@ -692,13 +692,13 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 612704392}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 984140114}
-        m_MethodName: Forest_level_1
+        m_MethodName: Desert_level_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fab47c2fd7e5d5e44897999ed91545e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54ccf1c459b20354d904d6d29761da08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -915,11 +915,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 607690136}
-  - {fileID: 1891222789}
-  - {fileID: 95814013}
-  - {fileID: 612704390}
-  - {fileID: 1023468474}
+  - {fileID: 1342801504}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -971,12 +967,12 @@ RectTransform:
   m_LocalScale: {x: 0.12298, y: 0.12298, z: 0.12298}
   m_Children:
   - {fileID: 1045273122}
-  m_Father: {fileID: 984140113}
-  m_RootOrder: 4
+  m_Father: {fileID: 1342801504}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200, y: 57}
+  m_AnchoredPosition: {x: 190, y: 83.8}
   m_SizeDelta: {x: 408, y: 626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023468475
@@ -1017,13 +1013,13 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1023468476}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 984140114}
-        m_MethodName: Forest_level_1
+        m_MethodName: Jungle_level_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1051,7 +1047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fab47c2fd7e5d5e44897999ed91545e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54ccf1c459b20354d904d6d29761da08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1146,6 +1142,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045273121}
   m_CullTransparentMesh: 0
+--- !u!1 &1342801503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342801504}
+  - component: {fileID: 1342801506}
+  - component: {fileID: 1342801505}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1342801504
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342801503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 607690136}
+  - {fileID: 612704390}
+  - {fileID: 95814013}
+  - {fileID: 1023468474}
+  - {fileID: 1891222789}
+  m_Father: {fileID: 984140113}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 10, y: -26.8}
+  m_SizeDelta: {x: -229.2, y: -79.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1342801505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342801503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1342801506
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342801503}
+  m_CullTransparentMesh: 0
 --- !u!1 &1891222788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,12 +1251,12 @@ RectTransform:
   m_LocalScale: {x: 0.12298, y: 0.12298, z: 0.12298}
   m_Children:
   - {fileID: 421056068}
-  m_Father: {fileID: 984140113}
-  m_RootOrder: 1
+  m_Father: {fileID: 1342801504}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -189, y: 90}
+  m_AnchoredPosition: {x: -199, y: 116.79999}
   m_SizeDelta: {x: 408, y: 626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891222790
@@ -1223,13 +1297,13 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1891222791}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 984140114}
-        m_MethodName: Forest_level_1
+        m_MethodName: Winter_level_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1257,7 +1331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fab47c2fd7e5d5e44897999ed91545e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54ccf1c459b20354d904d6d29761da08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
