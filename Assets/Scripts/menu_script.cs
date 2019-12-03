@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class menu_script : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class menu_script : MonoBehaviour
     
     public void NewGame()
     {
-        Application.LoadLevel("pr1");
+        SceneManager.LoadScene("pr1");
     }
 
     public void ToggleSound()

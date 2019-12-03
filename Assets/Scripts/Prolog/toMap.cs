@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class toMap : MonoBehaviour
 {
@@ -15,11 +16,11 @@ public class toMap : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) == true)
         {
-            Application.LoadLevel("Map");
+            SceneManager.LoadScene("Map");
         }
         if (Input.GetMouseButtonDown(1) == true)
         {
-            Application.LoadLevel("Map");
+            SceneManager.LoadScene("Map");
         }
     }
 }
