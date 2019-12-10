@@ -6,6 +6,31 @@ using UnityEngine.SceneManagement;
 
 public class map_script : MonoBehaviour
 {
+    public static int count_unlocked_levels = 1;
+
+    [SerializeField]
+    Sprite level_av;
+    [SerializeField]
+    Sprite level_unav;
+    [SerializeField]
+    Sprite level_acc;
+    [SerializeField]
+    Sprite level_hover;
+    [SerializeField]
+    Sprite level_acc_hover;
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void Forest_level_1()
     {
         SceneManager.LoadScene("Forest_level_1");

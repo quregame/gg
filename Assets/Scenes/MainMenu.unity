@@ -235,8 +235,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound: 1
   button_sound: {fileID: 823063703}
+  isMouseOver: 0
   sound_on: {fileID: 21300000, guid: 1be40a2d71fadc4468b0fc97c03b26c5, type: 3}
   sound_off: {fileID: 21300000, guid: 35c5a4ad1bb57a2449e3b50c5f0f26ce, type: 3}
+  sound_hover: {fileID: 21300000, guid: 2b66e5c03e22b344a9300aee0ddf87cf, type: 3}
 --- !u!1 &68941984
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,7 +642,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &823063704
 RectTransform:
@@ -689,7 +691,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 2b66e5c03e22b344a9300aee0ddf87cf,
+      type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
