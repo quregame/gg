@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class WinButtons : MonoBehaviour
 {
     public Button rest, upst, tomap;
+    public GameObject StatsWindow;
     public void restart()
     {
         SceneManager.LoadScene("F1");
@@ -14,7 +15,7 @@ public class WinButtons : MonoBehaviour
 
     public void upstats()
     {
-
+        StatsWindow.gameObject.SetActive(true);
     }
 
     public void toomap()

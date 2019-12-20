@@ -386,7 +386,6 @@ public class Dialog : MonoBehaviour
         BA7.gameObject.SetActive(false);
         NA4.gameObject.SetActive(false);
         BA5.gameObject.SetActive(false);
-        BA7.gameObject.SetActive(true);
         EA3.gameObject.SetActive(true);
 
 
@@ -523,6 +522,11 @@ public class Dialog : MonoBehaviour
         f1stars += 3;
     }
 
+    public void bookdesc()
+    {
+        book.GetComponentInChildren<Text>().text = "Книга выглядит довольно потрёпанной. Видно, что она повидала немало вместе со своим " +
+            "предыдущим хозяином. От книга веет теплом и прикосновении к ней она чувствуется, как она наполняет Фина жизненной силой.";
+    }
 
 
 
