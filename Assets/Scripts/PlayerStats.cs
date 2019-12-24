@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
     public static float HP;
-    public static float ATK;
     public static float DEF;
     public static int vitality = 1;
     public static int defense = 1;
@@ -45,7 +44,7 @@ public class PlayerStats : MonoBehaviour
         DEF = Mathf.Floor(defense * 3.8f);
     }
 
-    void Update()
+    public void Update()
     {
         if (curHP > HP)
         {

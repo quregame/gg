@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: d382f3710dacf3146acc4a0e5b674ed1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3638593159934819322
+    second: zombieidle_0
+  - first:
+      213: 2332533802890376196
+    second: zombieidle_1
+  - first:
+      213: -5942506001839883892
+    second: zombieidle_2
+  - first:
+      213: 2308336622798270098
+    second: zombieidle_3
+  - first:
+      213: 1191526219602416082
+    second: zombieidle_4
+  - first:
+      213: -6530267312638768887
+    second: zombieidle_5
+  - first:
+      213: -8861592249439784321
+    second: zombieidle_6
+  - first:
+      213: -3552701347107001541
+    second: zombieidle_7
+  - first:
+      213: 1665835312381530336
+    second: zombieidle_8
+  - first:
+      213: -823432780371624431
+    second: zombieidle_9
+  - first:
+      213: 8159751709116553190
+    second: zombieidle_10
+  - first:
+      213: 8087151055550746343
+    second: zombieidle_11
+  - first:
+      213: 2336114048341864145
+    second: zombieidle_12
+  - first:
+      213: -1549343713460325357
+    second: zombieidle_13
+  - first:
+      213: 3167941225551573138
+    second: zombieidle_14
+  - first:
+      213: 3594828474773302736
+    second: zombieidle_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombieidle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 309
+        height: 453
+      alignment: 9
+      pivot: {x: 1, y: 0.07726269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6780d471879602f4997b117db5b87115
+      internalID: -3638593159934819322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 542
+        width: 292
+        height: 454
+      alignment: 9
+      pivot: {x: 1, y: 0.07709251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34cfe088f606dd458eafea74d06c3c5
+      internalID: 2332533802890376196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 542
+        width: 291
+        height: 454
+      alignment: 9
+      pivot: {x: 1, y: 0.07709251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12b68d9376e7694b94bbf933032e580
+      internalID: -5942506001839883892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_3
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 542
+        width: 289
+        height: 454
+      alignment: 9
+      pivot: {x: 1, y: 0.07709251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59330ceda799fa949802050874974912
+      internalID: 2308336622798270098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_4
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 542
+        width: 288
+        height: 455
+      alignment: 9
+      pivot: {x: 1, y: 0.07692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55fefb3ae37da2438fce640f8c02aa8
+      internalID: 1191526219602416082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_5
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 542
+        width: 287
+        height: 456
+      alignment: 9
+      pivot: {x: 1, y: 0.076754384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b1504f756cc7649bb85601ff45d230
+      internalID: -6530267312638768887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_6
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 539
+        width: 285
+        height: 459
+      alignment: 9
+      pivot: {x: 1, y: 0.07625272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ce653494a34e84cb296887526906af
+      internalID: -8861592249439784321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_7
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 542
+        width: 284
+        height: 458
+      alignment: 9
+      pivot: {x: 1, y: 0.07641921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b73abe75a2ec034095e15966ef8125e
+      internalID: -3552701347107001541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 309
+        height: 459
+      alignment: 9
+      pivot: {x: 1, y: 0.07625272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda22617886e0c4ca9b67666d55d114
+      internalID: 1665835312381530336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 42
+        width: 289
+        height: 458
+      alignment: 9
+      pivot: {x: 1, y: 0.07641921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962146537aabc3d4e8192fa1ba751f80
+      internalID: -823432780371624431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_10
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 43
+        width: 292
+        height: 457
+      alignment: 9
+      pivot: {x: 1, y: 0.07658643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3f97f03c380304f8709b3d185a68d8
+      internalID: 8159751709116553190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_11
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 42
+        width: 293
+        height: 456
+      alignment: 9
+      pivot: {x: 1, y: 0.076754384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c54e7b5dfb05de49b7f864d558ece1d
+      internalID: 8087151055550746343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_12
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 42
+        width: 295
+        height: 455
+      alignment: 9
+      pivot: {x: 1, y: 0.07692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eae7b5a46fdcd4993fd03df37de250
+      internalID: 2336114048341864145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_13
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 42
+        width: 298
+        height: 454
+      alignment: 9
+      pivot: {x: 1, y: 0.07709251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349608116c33d36408cf4352c26c5d84
+      internalID: -1549343713460325357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombieidle_14
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 43
+        width: 296
+        height: 453
+      alignment: 9
+      pivot: {x: 1, y: 0.07726269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7df54ad375a8b348820a57d7ebc31d4
+      internalID: 3167941225551573138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
