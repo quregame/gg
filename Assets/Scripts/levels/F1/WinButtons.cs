@@ -8,6 +8,7 @@ public class WinButtons : MonoBehaviour
 {
     public Button rest, upst, tomap;
     public GameObject StatsWindow;
+    public static bool statsopen = false;
     public void restart()
     {
         SceneManager.LoadScene("F1");
@@ -16,6 +17,7 @@ public class WinButtons : MonoBehaviour
     public void upstats()
     {
         StatsWindow.gameObject.SetActive(true);
+        statsopen = true;
     }
 
     public void toomap()

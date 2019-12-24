@@ -1022,7 +1022,6 @@ GameObject:
   - component: {fileID: 1349629062}
   - component: {fileID: 1349629063}
   - component: {fileID: 1349629065}
-  - component: {fileID: 1349629064}
   - component: {fileID: 1349629066}
   m_Layer: 0
   m_Name: playerUnit
@@ -1100,20 +1099,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1349629064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349629061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db7b747fea9ab0740b07212824eba001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stats: {fileID: 1349629066}
-  curHP: 0
 --- !u!95 &1349629065
 Animator:
   serializedVersion: 3
@@ -1145,16 +1130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85c6a10ff5751043a17665ce79be95a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 21
-  ATK: 0
-  DEF: 3
-  vitality: 1
-  defense: 1
-  sharpness: 1
-  minATK: 2
-  maxATK: 5
-  minDMG: 4
-  maxDMG: 10
 --- !u!1 &2103632379
 GameObject:
   m_ObjectHideFlags: 0
