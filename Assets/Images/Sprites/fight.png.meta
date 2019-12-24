@@ -128,10 +128,10 @@ TextureImporter:
       name: fight_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1070
-        width: 745
-        height: 1070
+        x: 11
+        y: 1073
+        width: 728
+        height: 1045
       alignment: 9
       pivot: {x: 0.370468, y: 0.23690824}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: fight_1
       rect:
         serializedVersion: 2
-        x: 753
-        y: 1070
-        width: 744
-        height: 1070
+        x: 791
+        y: 1075
+        width: 692
+        height: 1022
       alignment: 9
       pivot: {x: 0.3804131, y: 0.23818998}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: fight_2
       rect:
         serializedVersion: 2
-        x: 1504
+        x: 1523
         y: 1070
-        width: 718
-        height: 1070
+        width: 693
+        height: 1043
       alignment: 9
       pivot: {x: 0.40562946, y: 0.22902684}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: fight_3
       rect:
         serializedVersion: 2
-        x: 2230
-        y: 1070
-        width: 722
-        height: 1070
+        x: 2250
+        y: 1076
+        width: 697
+        height: 1048
       alignment: 9
       pivot: {x: 0.40647554, y: 0.24053544}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,9 +213,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2952
-        y: 1070
+        y: 1081
         width: 762
-        height: 1070
+        height: 1047
       alignment: 9
       pivot: {x: 0.41318494, y: 0.23712648}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +233,10 @@ TextureImporter:
       name: fight_5
       rect:
         serializedVersion: 2
-        x: 3714
-        y: 1070
-        width: 728
-        height: 1070
+        x: 3717
+        y: 1071
+        width: 723
+        height: 1038
       alignment: 9
       pivot: {x: 0.39377838, y: 0.2324358}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: fight_6
       rect:
         serializedVersion: 2
-        x: 4501
-        y: 1070
-        width: 690
-        height: 1070
+        x: 4525
+        y: 1075
+        width: 659
+        height: 1050
       alignment: 9
       pivot: {x: 0.43487248, y: 0.23712648}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: fight_7
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 700
-        height: 1057
+        width: 691
+        height: 1003
       alignment: 9
       pivot: {x: 0.2513385, y: 0.23297654}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,9 +297,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 700
-        y: 0
+        y: 6
         width: 982
-        height: 1070
+        height: 1044
       alignment: 9
       pivot: {x: 0.29988313, y: 0.23759706}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: fight_9
       rect:
         serializedVersion: 2
-        x: 1680
+        x: 1684
         y: 0
-        width: 1087
-        height: 1070
+        width: 1083
+        height: 1042
       alignment: 9
       pivot: {x: 0.3332195, y: 0.21995969}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: fight_11
       rect:
         serializedVersion: 2
-        x: 2767
-        y: 0
-        width: 966
-        height: 1070
+        x: 2769
+        y: 3
+        width: 964
+        height: 1045
       alignment: 9
       pivot: {x: 0.28080797, y: 0.22946645}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +359,10 @@ TextureImporter:
       name: fight_12
       rect:
         serializedVersion: 2
-        x: 3745
+        x: 3783
         y: 0
-        width: 729
-        height: 1070
+        width: 691
+        height: 1015
       alignment: 9
       pivot: {x: 0.37578633, y: 0.22509082}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,9 +381,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4472
-        y: 0
+        y: 7
         width: 728
-        height: 1070
+        height: 1044
       alignment: 9
       pivot: {x: 0.3549892, y: 0.23931944}
       border: {x: 0, y: 0, z: 0, w: 0}
