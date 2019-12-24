@@ -319,7 +319,7 @@ MonoBehaviour:
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 25e944efa495838499be0547fca803e9, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 95197baac4106a7428fa472e602b3c7a, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -330,7 +330,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 26070663}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1845809837}
+        m_MethodName: upsharp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &26070663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,7 +1116,7 @@ MonoBehaviour:
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 25e944efa495838499be0547fca803e9, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 95197baac4106a7428fa472e602b3c7a, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -1116,7 +1127,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 150047127}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1845809837}
+        m_MethodName: updef
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &150047127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3933,12 +3955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b14d51ed712bfe43964efb10c7fefa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogWindow: {fileID: 1045137365}
-  WinWindow: {fileID: 1554102853}
-  stars0: {fileID: 21300000, guid: 9c453ee0c16aeb64e93b27c45f384d06, type: 3}
-  stars1: {fileID: 21300000, guid: 9c99e812516cd464497dcf253fd141b2, type: 3}
-  stars2: {fileID: 21300000, guid: e811df8b6eaf3124dbfd34f592fd1d24, type: 3}
-  stars3: {fileID: 21300000, guid: 697c4ab8049d0024ea0dc08a459ea5c2, type: 3}
 --- !u!1 &894203368
 GameObject:
   m_ObjectHideFlags: 0
@@ -4842,6 +4858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: {fileID: 1542384141}
   Answers: {fileID: 611235344}
+  DialogWindow: {fileID: 1045137365}
+  WinWindow: {fileID: 1554102853}
   StartDialog: {fileID: 1110416705}
   BA1: {fileID: 1915437042}
   NA1: {fileID: 1284020894}
@@ -4877,8 +4895,11 @@ MonoBehaviour:
   GA4: {fileID: 1856813653}
   EA4: {fileID: 174278853}
   book: {fileID: 2062296566}
-  f1stars: 0
   levelisend: 0
+  stars0: {fileID: 21300000, guid: 9c453ee0c16aeb64e93b27c45f384d06, type: 3}
+  stars1: {fileID: 21300000, guid: 9c99e812516cd464497dcf253fd141b2, type: 3}
+  stars2: {fileID: 21300000, guid: e811df8b6eaf3124dbfd34f592fd1d24, type: 3}
+  stars3: {fileID: 21300000, guid: 697c4ab8049d0024ea0dc08a459ea5c2, type: 3}
 --- !u!1 &1050880623
 GameObject:
   m_ObjectHideFlags: 0
@@ -6964,7 +6985,6 @@ GameObject:
   - component: {fileID: 1397351550}
   - component: {fileID: 1397351552}
   - component: {fileID: 1397351551}
-  - component: {fileID: 1397351553}
   m_Layer: 5
   m_Name: Overlay
   m_TagString: Untagged
@@ -7027,24 +7047,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397351549}
   m_CullTransparentMesh: 0
---- !u!114 &1397351553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397351549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b14d51ed712bfe43964efb10c7fefa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DialogWindow: {fileID: 0}
-  WinWindow: {fileID: 0}
-  stars0: {fileID: 0}
-  stars1: {fileID: 0}
-  stars2: {fileID: 0}
-  stars3: {fileID: 0}
 --- !u!1 &1407520188
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,7 +7363,7 @@ MonoBehaviour:
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 25e944efa495838499be0547fca803e9, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 95197baac4106a7428fa472e602b3c7a, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -7372,7 +7374,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1434166745}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1845809837}
+        m_MethodName: upvit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1434166745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9179,7 +9192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.54999, y: -0.0000076294}
+  m_AnchoredPosition: {x: -0.54999, y: 0}
   m_SizeDelta: {x: 822, y: 950.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1845809835
@@ -9231,6 +9244,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acc: {fileID: 1407520189}
+  inchp: {fileID: 1434166744}
+  incdef: {fileID: 150047126}
+  incsharp: {fileID: 26070662}
 --- !u!1 &1849092751
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,12 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Dialog : MonoBehaviour
 {
-    public GameObject Question, Answers;
+    public GameObject Question, Answers, DialogWindow, WinWindow;
     public Button StartDialog, BA1, NA1, GA1, BA2, SA1, NA2, BA5, GA2, BA6, EA1, BA3, SA2, AA1, BA4, TA1, FA1, FA2, TA2, FA3, FA4, TA3, FA5, FA6,
         EA2, EA3, NA3, BA7, NA4, NA5, NA6, GA3, GA4, EA4, book;
     public static bool haveaheal = false;
-    public int f1stars;
     public bool levelisend = false;
+    [SerializeField]
+    Sprite stars0;
+    [SerializeField]
+    Sprite stars1;
+    [SerializeField]
+    Sprite stars2;
+    [SerializeField]
+    Sprite stars3;
 
     public void StartDialogue()
     {
@@ -208,7 +215,13 @@ public class Dialog : MonoBehaviour
         book.gameObject.SetActive(false);
         gameObject.SetActive(false);
         levelisend = true;
-        f1stars += 2;
+        WinWindow.gameObject.SetActive(true);
+        WinWindow.GetComponent<Image>().sprite = stars2;
+        GameObject.Find("WinWindow/itog").GetComponent<Text>().text = "Ты почти справился, но почти не считается.";
+        if (LevelManager.f1endlevel == false)
+        {
+            PlayerStats.statspoints = 2;
+        }
     }
 
     public void FA3b()
@@ -230,7 +243,13 @@ public class Dialog : MonoBehaviour
     {
         gameObject.SetActive(false);
         levelisend = true;
-        f1stars += 1;
+        WinWindow.gameObject.SetActive(true);
+        WinWindow.GetComponent<Image>().sprite = stars1;
+        GameObject.Find("WinWindow/itog").GetComponent<Text>().text = "Ты прошёл уровень. Ни хорошо, ни плохо, просто прошёл.";
+        if (LevelManager.f1endlevel == false)
+        {
+            PlayerStats.statspoints = 1;
+        }
     }
 
     public void FA4b()
@@ -297,7 +316,9 @@ public class Dialog : MonoBehaviour
     {
         gameObject.SetActive(false);
         levelisend = true;
-        f1stars += 0;
+        WinWindow.gameObject.SetActive(true);
+        WinWindow.GetComponent<Image>().sprite = stars0;
+        GameObject.Find("WinWindow/itog").GetComponent<Text>().text = "Ты, конечно, прошёл уровень, но мог бы и лучше :с";
     }
 
     public void NA1b()
@@ -474,7 +495,6 @@ public class Dialog : MonoBehaviour
 
         NA6.gameObject.SetActive(false);
         GA3.gameObject.SetActive(false);
-        BA7.gameObject.SetActive(true);
         EA3.gameObject.SetActive(true);
 
 
@@ -519,7 +539,13 @@ public class Dialog : MonoBehaviour
         book.gameObject.SetActive(false);
         gameObject.SetActive(false);
         levelisend = true;
-        f1stars += 3;
+        WinWindow.gameObject.SetActive(true);
+        WinWindow.GetComponent<Image>().sprite = stars3;
+        GameObject.Find("WinWindow/itog").GetComponent<Text>().text = "Вот это да. Ты безупречно прошёл уровень с:";
+        if (LevelManager.f1endlevel == false)
+        {
+            PlayerStats.statspoints = 3;
+        }
     }
 
     public void bookdesc()

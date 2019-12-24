@@ -17,8 +17,8 @@ public class StartLevel : MonoBehaviour
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == "F1"
-            || scene.name == "D1"
             || scene.name == "S1"
+            || scene.name == "D1"
             || scene.name == "J1"
             || scene.name == "W1")
         {
